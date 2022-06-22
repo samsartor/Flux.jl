@@ -53,6 +53,7 @@ include("layers/upsample.jl")
 include("layers/show.jl")
 
 include("loading.jl")
+export loadmodel!
 
 include("outputsize.jl")
 
